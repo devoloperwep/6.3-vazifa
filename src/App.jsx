@@ -53,6 +53,7 @@ function App() {
             Name:
           </label>
           <input
+            required
             className="input ml-5"
             type="text"
             ref={name}
@@ -64,6 +65,7 @@ function App() {
             Email:
           </label>
           <input
+            required
             className="input ml-5"
             type="email"
             ref={email}
@@ -75,6 +77,7 @@ function App() {
             Age:
           </label>
           <input
+            required
             className="input ml-5"
             type="number"
             ref={age}
